@@ -120,7 +120,7 @@ body{
     display: flex;
     align-items: start;
     justify-content: space-between;
-    padding-right: 0px;
+    padding-right: 10px;
 }
 .search input{
     padding: 10px;
