@@ -42,7 +42,7 @@ body{
     flex:1;
     margin: right 16px;
     font-size: 18px;
-   margin-right: 13px;
+  
 }
 
 .search button{
@@ -53,6 +53,7 @@ body{
     width:60px;
     height:60px;
     cursor:pointer;
+    margin-left:5px;
     
 }
 
@@ -111,4 +112,20 @@ body{
     font-size: 14px;
     margin-top:10px;
     display:none;
+}
+@media screen and (max-width: 500px) /*media query: TO ADD RESPONSIVENESS*/
+{
+.search{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-right: 0px;
+}
+.search input{
+    padding: 10px;
+}
+.search button{
+    margin-left:1px;
+}
 }
