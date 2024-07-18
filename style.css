@@ -116,7 +116,7 @@ body{
 @media screen and (max-width: 500px) /*media query: TO ADD RESPONSIVENESS*/
 {
 .search{
-    width: 100%;
+    width: 110%;
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -128,4 +128,5 @@ body{
 .search button{
     margin-left:1px;
 }
+
 }
